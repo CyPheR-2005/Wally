@@ -1,0 +1,79 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReBuy + ShopEase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>ReBuy + ShopEase</h1>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="reminders.html">Reminders</a></li>
+        <li><a href="assistant.html">Assistant</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="family.html">Family Mode</a></li>
+        <li><a href="sustainability.html">Sustainability</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-banner">
+      <div class="hero-content">
+        <h2>Smarter Shopping Starts Here</h2>
+        <p>ReBuy + ShopEase is your AI-powered shopping companion that predicts, personalizes, and simplifies your Walmart experience.</p>
+        <a href="reminders.html" class="cta-button">Get Started →</a>
+      </div>
+    </section>
+
+    <section class="feature-grid">
+      <div class="card"><a href="reminders.html">🔔 Predictive Reminders<br><span>Never run out of essentials again.</span></a></div>
+      <div class="card"><a href="assistant.html">💬 Conversational Assistant<br><span>Ask, discover, and shop smarter.</span></a></div>
+      <div class="card"><a href="cart.html">🛒 Smart Cart & Offers<br><span>Track spending, grab deals.</span></a></div>
+      <div class="card"><a href="family.html">👨‍👩‍👧‍👦 Family Mode<br><span>Sync lists across household.</span></a></div>
+      <div class="card"><a href="sustainability.html">🌱 Sustainability Tracker<br><span>Shop with an eco-friendly touch.</span></a></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ReBuy + ShopEase by Walmart Sparkathon Team</p>
+  </footer>
+  <!-- Floating Assistant Chatbot -->
+<div id="chatbot-launcher" onclick="toggleChatbot()">
+  💬
+</div>
+
+<div id="chatbot-container" class="hidden">
+  <div class="chat-box">
+    <h3 style="text-align:center; margin-bottom: 1rem;">Wally</h3>
+    <div class="chat-window" id="chat-window">
+      <div class="chat-message user">🗣 “Reorder Colgate toothpaste.”</div>
+      <div class="chat-message ai">✅ Colgate toothpaste has been added to your cart.</div>
+      <div class="chat-message user">🗣 “What offers are available?”</div>
+      <div class="chat-message ai">🛍 You have 10% off on Rice and ₹20 cashback on detergent.</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" placeholder="Ask Wally something..." />
+      <button onclick="alert('Voice input coming soon!')">🎙</button>
+    </div>
+    <div style="text-align:center; margin-top: 0.5rem;">
+      <button class="secondary" onclick="toggleChatbot()">Close</button>
+    </div>
+  </div>
+</div>
+<script>
+  function toggleChatbot() {
+    const container = document.getElementById('chatbot-container');
+    container.classList.toggle('hidden');
+  }
+</script>
+
+</body>
+</html>
+<!-- Place this at the end of body tag -->
+<script src="js/index.js"></script>

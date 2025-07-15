@@ -1,0 +1,71 @@
+<!-- assistant.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Assistant - ShopEase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>ReBuy + ShopEase</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reminders.html">Reminders</a></li>
+        <li><a href="assistant.html" class="active">Assistant</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="family.html">Family Mode</a></li>
+        <li><a href="sustainability.html">Sustainability</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-title">
+      <h2>💬 Smart Shopping Assistant</h2>
+      <p>Ask anything. Get instant shopping help, suggestions, and insights powered by AI.</p>
+    </section>
+
+    <section class="chat-box">
+      <div class="chat-window">
+        <div class="chat-message user">
+          <p>Find the best shampoos under ₹300</p>
+        </div>
+        <div class="chat-message ai">
+          <p>Here are top-rated shampoos under ₹300:
+            <ul>
+              <li>Dove Daily Shine – ₹250</li>
+              <li>Sunsilk Black Shine – ₹199</li>
+              <li>Clinic Plus Strong & Long – ₹180</li>
+            </ul>
+          </p>
+        </div>
+        <div class="chat-message user">
+          <p>Any combo offers on rice and dal?</p>
+        </div>
+        <div class="chat-message ai">
+          <p>Yes! Buy 5kg Rice + 1kg Dal and save ₹50.</p>
+        </div>
+      </div>
+      <div class="chat-input">
+        <input type="text" placeholder="Ask something..." disabled>
+        <button disabled>Send</button>
+      </div>
+    </section>
+  </main>
+<section class="feature-grid">
+  <div class="card">
+    <a href="voice.html">🎙 Voice Assistant<br>
+    <span>Reorder items using your voice with ReBuy AI.</span></a>
+  </div>
+</section>
+
+  <footer>
+    <p>&copy; 2025 ReBuy + ShopEase by Walmart Sparkathon Team</p>
+  </footer>
+</body>
+</html>
+<!-- Place this at the end of body tag -->
+<script src="js/assistant.js"></script>
