@@ -50,23 +50,20 @@ All through a lightweight, private, and user-friendly interface.
    ```
    /retailx.git
    cd retailx
-```
 
 2. **Install dependencies**
 
    ```
    pip install -r requirements.txt
-   ```
-
+   
 3. **Install Ollama and setup your LLM**
 
    * Follow instructions at [https://ollama.ai](https://ollama.ai) to install and run the model locally.
-
+```
 4. **Run the app**
 
    ```
    streamlit run app.py
-   ```
 
 ## 🧠 Assistant – Wally
 
