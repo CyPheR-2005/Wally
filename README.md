@@ -57,14 +57,14 @@ All through a lightweight, private, and user-friendly interface.
    pip install -r requirements.txt
    
 3. **Install Ollama and setup your LLM**
-
+```
    * Follow instructions at [https://ollama.ai](https://ollama.ai) to install and run the model locally.
 ```
 4. **Run the app**
 
    ```
    streamlit run app.py
-
+   
 ## 🧠 Assistant – Wally
 
 Wally is the smart AI persona integrated into RetailX. It understands user queries, offers product insights, and reminds users when they're about to run out of essentials. Trained on localized prompts for Walmart use cases.
